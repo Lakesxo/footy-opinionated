@@ -59,7 +59,13 @@ span.notification {
     width: 30%;
     border-left: 2px solid whitesmoke;
     overflow-y: scroll;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    padding-top: 20px;
 }
+.right-bar::-webkit-scrollbar {
+    display: none;
+  }
 .main-content {
     margin-left: 20%;
     width: 50%;
